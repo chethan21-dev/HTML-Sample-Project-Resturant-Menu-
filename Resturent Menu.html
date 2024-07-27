@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .menu-container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-transform: uppercase;
+        }
+        .menu-section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-section h2 {
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 10px;
+            color: #e74c3c;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            margin-bottom: 15px;
+        }
+        .menu-item h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .menu-item p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .price {
+            float: right;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Menu</h1>
+    </header>
+
+    <div class="menu-container">
+        <section class="menu-section">
+            <h2>Starters</h2>
+            <div class="menu-item">
+                <h3>Bruschetta <span class="price">580.00 rps</span></h3>
+                <p>Grilled bread topped with tomatoes, basil, and garlic.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Stuffed Mushrooms <span class="price">620.00 rps</span></h3>
+                <p>Mushrooms stuffed with cheese and herbs, baked to perfection.</p>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <h3>Grilled Salmon <span class="price">1200.00 rps</span></h3>
+                <p>Fresh salmon fillet grilled with lemon and herbs.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Familytoster <span class="price">1150.00 rps</span></h3>
+                <p>Tender beef cooked in a creamy mushroom sauce.</p>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <h3>Chocolate Lava Cake <span class="price">250.00 rps</span></h3>
+                <p>Warm chocolate cake with a gooey molten center.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Cheesecake <span class="price">350.00 rps</span></h3>
+                <p>Classic cheesecake with a graham cracker crust.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Name | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
